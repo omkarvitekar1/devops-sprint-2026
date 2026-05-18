@@ -1,0 +1,19 @@
+# Terraform state files (may contain sensitive data)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform provider plugins and lock file (machine-specific)
+.terraform/
+.terraform.lock.hcl
+
+# Local override files (often used for secrets)
+*.tfvars
+!example.tfvars
+
+# Crash log files
+crash.log
+crash.*.log
+
+# macOS noise
+.DS_Store
